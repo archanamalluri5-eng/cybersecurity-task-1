@@ -1,0 +1,55 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# VM files (do not commit large VM images)
+*.vmdk
+*.vdi
+*.vhd
+*.ova
+*.ovf
+*.vmx
+*.vmem
+*.vmsd
+*.vmsn
+
+# Kali/VM specific
+.vagrant/
+*.box
+
+# Network captures (large binary files)
+*.pcap
+*.pcapng
+
+# Scan output files
+*.gnmap
+*.xml
+*.nmap
+
+# Sensitive data - never commit
+*.pem
+*.key
+*.crt
+credentials.*
+secrets.*
+passwords.*
